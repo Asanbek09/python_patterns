@@ -50,7 +50,7 @@ def extract(case: str):
         factory = extract_factory(path)
         data = factory.parsed_data
 
-        search_xpath = ".//person[lastname='Liar']"
+        search_xpath = ".//person[lastName='Liar']"
         items = data.findall(search_xpath)
         for item in items:
             first = item.find("firstName").text
