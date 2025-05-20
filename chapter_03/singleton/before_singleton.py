@@ -14,4 +14,4 @@ class URLFetcher:
             self.urls.append(url)
 
 if __name__ == "__main__":
-    print(URLFetcher() is URLFetcher)
+    print(URLFetcher() is URLFetcher())
